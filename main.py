@@ -9,7 +9,7 @@ WINDOW_SIZE = (800, 600)
 display = pygame.display.set_mode(WINDOW_SIZE, DOUBLEBUF)
 clock = pygame.time.Clock()
 
-player_image = pygame.image.load("222.png")
+
 player_pistol = pygame.image.load("images/player_pistol.png")
 font = pygame.font.SysFont(None, 20)
 
