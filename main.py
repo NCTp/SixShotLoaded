@@ -110,7 +110,7 @@ class Enemy:  # Enemy Class
         self.hit_box = (self.x - display_scroll[0], self.y - display_scroll[1], 28, 30)
         pygame.draw.rect(display, (255, 0, 0), self.hit_box, 2)
 
-class cursor:  # Mouse Cursor
+class Cursor:  # Mouse Cursor
     def __init__(self,x,y):
         self.x = x
         self.y = y
